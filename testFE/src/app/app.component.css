@@ -1,0 +1,94 @@
+.nav1{
+  position: absolute;
+  width: 150px;
+  height: 721px;
+  top: 0px;
+  left: 0px;
+  background: #191718;
+}
+.nav2{
+  position: absolute;
+  width: 1383px;
+  height: 670px;
+  top: 0px;
+  left: 150px;
+  background: #FFFFFF;
+  border: 1px solid #DEDEDE;
+}
+.nav3{
+  position: absolute;
+  width: 1000px;
+  height: 21px;
+  top: 680px;
+  left: 150px;
+  background: #FFFFFF;
+
+}
+.copyright{
+  position: absolute;
+  width: 125px;
+  height: 19px;
+  left: 50px;
+  top: 7px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+
+  color: #3E3E3E;
+
+
+}
+.img{
+  position: absolute;
+  width: 310px;
+  height: 122px;
+  left: 550px;
+  top: 10px;
+}
+.brown{
+  position: absolute;
+  width: 1010px;
+  height: 110px;
+  top: 150px;
+  left: 200px;
+  background: #EFEFEF;
+}
+.table{
+  text-align: left;
+  position: absolute;
+  width: 1010px;
+  height: 110px;
+  top: 300px;
+  left: 200px;
+}
+.btn-hover {
+  height: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  background-image: linear-gradient(to right, #000000, #808080, #C0C0C0, #FFFFFF);
+  border-bottom: 1px solid #AAAAAA;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+.btn-hover:focus {
+  outline: none;
+}
